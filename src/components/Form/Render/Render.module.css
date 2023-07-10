@@ -1,0 +1,31 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+
+.divTitle {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.infoImg {
+    display: flex;
+    border: 2px solid #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgArtist {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
