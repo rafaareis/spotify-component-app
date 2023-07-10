@@ -21,6 +21,11 @@
     
 }
 
+.container-nav-title {
+    font-size: 30px;
+    text-align: center;
+}
+
 a {
     cursor: pointer;
     text-decoration: none;

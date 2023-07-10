@@ -16,7 +16,7 @@ const Render = ( { artists } ) => {
                         <div className={styles.infos}>
                             <h2 className={styles.popularity}>Popularidade: {artist.popularity}</h2>
                             <h2 className={styles.followers}>Número de seguidores: {Number(artist.followers.total)}</h2>
-                            <h2>Gênero: {artist.genres[0]}</h2>
+                            <h2 className={styles.genre}>Gênero: {artist.genres[0]}</h2>
                         </div>
 
                     </div>

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 import Login from "./components/Login/Login"
 import Form from "./components/Form/Form";
+import Footer from "./components/Footer/Footer";
 
 import './global.css';
 
@@ -59,7 +60,7 @@ function App() {
           }
 
       </nav>
-
+          <Footer />
     </div>
   )
 }
